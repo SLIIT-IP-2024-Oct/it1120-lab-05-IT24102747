@@ -31,7 +31,7 @@ public class IT24102747Lab5Q3 {
         double totalCharge = daysReserved * ROOM_CHARGE_PER_DAY;
         double discountRate = 0;
 
-        // Determine discount rate based on number of days
+        
         if (daysReserved >= 3 && daysReserved <= 4) {
             discountRate = DISCOUNT_3_TO_4_DAYS;
         } else if (daysReserved >= 5) {
