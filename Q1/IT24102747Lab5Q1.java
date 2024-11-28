@@ -19,7 +19,7 @@ public class IT24102747Lab5Q1 {
         int smallest = num1;
         int largest = num1;
         
-        // Find the smallest number
+        
         if (num2 < smallest) {
             smallest = num2;
         }
@@ -27,7 +27,7 @@ public class IT24102747Lab5Q1 {
             smallest = num3;
         }
 
-        // Find the largest number
+        
         if (num2 > largest) {
             largest = num2;
         }
