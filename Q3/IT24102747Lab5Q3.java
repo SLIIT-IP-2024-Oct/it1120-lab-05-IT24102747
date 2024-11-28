@@ -38,11 +38,11 @@ public class IT24102747Lab5Q3 {
             discountRate = DISCOUNT_5_OR_MORE_DAYS;
         }
 
-        // Calculate total amount after discount
+        
         double discountAmount = (totalCharge * discountRate) / 100;
         double finalAmount = totalCharge - discountAmount;
 
-        // Display the results
+        
         System.out.println("Number of days reserved: " + daysReserved);
         System.out.println("Room charged per day: Rs " + ROOM_CHARGE_PER_DAY);
         System.out.println("Total amount to be paid after discount: Rs " + finalAmount);
